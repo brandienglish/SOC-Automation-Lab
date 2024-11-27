@@ -9,13 +9,23 @@ Skills Learned
 
 
 Tools Used
+
 Mimikatz
+
 Kali Linux 
-VM Box 
+
+Vitual Box 
+
+Windows 10
+
 Kibana
+
 Cassandra
+
 Shuffle 
+
 Digital Ocean Droplets( host The Hive and Wazuh Servers)
+
 Firewall
 Virus Total
 

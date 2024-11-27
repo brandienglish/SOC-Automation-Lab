@@ -9,7 +9,15 @@ Skills Learned
 
 
 Tools Used
-
+Mimikatz
+Kali Linux 
+VM Box 
+Kibana
+Cassandra
+Shuffle 
+Digital Ocean Droplets( host The Hive and Wazuh Servers)
+Firewall
+Virus Total
 
 
 References

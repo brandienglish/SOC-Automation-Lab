@@ -1,11 +1,16 @@
 # SOC-Automation-Lab
 Objective
-In this SOC automation project, the primary objective is to streamline and enhance the security operations using a range of powerful tools. Kali Linux, running on a Windows host, serves as the foundation for security testing and incident response. The project integrates Shuffle, an automation tool, to orchestrate and automate workflows across various security platforms. VirusTotal is leveraged for malware analysis by submitting suspicious files and URLs to get detailed insights. Security data is collected and analyzed through Kibana, which visualizes logs and metrics from multiple sources, including Wazuh for endpoint monitoring and TheHive for incident management. Cassandra acts as a distributed database for storing vast amounts of log data securely. Automated email notifications are set up to alert security teams of critical findings, such as malware detections, network anomalies, or suspicious activities, allowing for rapid response and mitigation. This setup significantly enhances the efficiency and effectiveness of threat detection, response, and reporting within the SOC
 
-As part of the testing phase, the project was evaluated using Mimikatz, a well-known post-exploitation tool, to simulate attacks and validate the system’s detection and response capabilities. By running Mimikatz in a controlled environment, the project tested its ability to detect credential dumping activities and other malicious behaviors. The security tools integrated into the automation pipeline, such as Wazuh and TheHive, successfully flagged the malicious activity, generating alerts and triggering email notifications. 
+
+In this SOC automation project, the primary goal was to enhance security operations using a suite of powerful tools. The system was built on Windows, with integration across several security platforms to streamline threat detection and incident response. Shuffle was used to automate workflows between tools such as VirusTotal, Kibana, Wazuh, TheHive, and Cassandra. VirusTotal was employed for malware analysis by submitting suspicious files and URLs, providing detailed insights into potential threats. Security events were visualized and analyzed through Kibana, while Wazuh monitored endpoints, collecting and analyzing security data. TheHive managed security incidents, enabling efficient tracking and response. Cassandra acted as a distributed database for securely storing extensive log data. Automated email notifications were set up to alert the security team about critical incidents, ensuring rapid response. This integrated system improved efficiency in detecting and managing security threats.
+
+As part of the testing phase, Mimikatz was executed directly from the command line on the Windows machine to simulate attacks and validate the detection capabilities of the system.
+The integrated tools, including Wazuh and TheHive, successfully flagged the malicious behavior, triggering alerts that were visualized in Kibana. The system’s effectiveness was further confirmed through automated email notifications sent to the security team in real time. This comprehensive testing demonstrated that the SOC automation system was capable of detecting and responding to advanced threats like those posed by Mimikatz.
+
+To enhance the scalability and resilience of the project, TheHive and Wazuh were hosted on DigitalOcean droplets. This cloud-based infrastructure provided a reliable platform for managing security operations, enabling centralized log collection, incident tracking, and efficient data processing. Hosting these tools on DigitalOcean allowed for seamless integration, ensuring that security events were consistently managed and analyzed in real time. The cloud deployment, combined with automated workflows and real-time alerting, ensured that the system could scale effectively to handle growing security demands
+
 
 Skills Learned
-
 
 
 Tools Used

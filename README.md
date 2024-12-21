@@ -17,9 +17,7 @@ Tools Used
 
 Mimikatz
 
-Kali Linux 
-
-Vitual Box 
+Virtual Box 
 
 Windows 10
 
